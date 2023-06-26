@@ -8,4 +8,8 @@ describe('stringEndWith', () => {
   it('("ababac", "ab") should return false', () => {
     expect(stringEndWith("ababac", "ab")).toBe(false);
   });
+
+  it('("ababab", "ab") should return false', () => {
+    expect(stringEndWith("ababab", "ab")).toBe(true);
+  });
 });
