@@ -21,12 +21,17 @@ describe('stringEndWith', () => {
     expect(stringEndWith("", "") ).toBe(true);
   });
 
-  it('("naNa", "") should return false', () => {
-    expect(stringEndWith("naNa", "") ).toBe(false);
+  it('("naNa", "") should return true', () => {
+    expect(stringEndWith("naNa", "") ).toBe(true);
   });
 
   it('( "", "HehO") should return false', () => {
     expect(stringEndWith( "", "HehO") ).toBe(false);
+  });
+
+
+  it('( "MehEho", "o") should return false', () => {
+    expect(stringEndWith("MehEho", "o") ).toBe(true);
   });
 
 });

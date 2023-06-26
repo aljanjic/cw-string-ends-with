@@ -22,6 +22,6 @@ solution('abc', 'd') // returns false
 - ✅ '("", "") should return true'
 - ✅ '("naNa", "") should return false'
 - ✅ '( "", "HehO") should return false'
-- ⚠ '( "MehEho", "o") should return true'
+- ✅ '( "MehEho", "o") should return true'
 
 
