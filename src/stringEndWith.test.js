@@ -21,4 +21,8 @@ describe('stringEndWith', () => {
     expect(stringEndWith("", "") ).toBe(true);
   });
 
+  it('("naNa", "") should return false', () => {
+    expect(stringEndWith("naNa", "") ).toBe(false);
+  });
+
 });
