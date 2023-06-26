@@ -1,7 +1,7 @@
 const stringEndWith = require('./stringEndWith');
 
 describe('stringEndWith', () => {
-  it('should return hello', () => {
-    expect(stringEndWith()).toBe('hello');
+  it('("abAb", "Ab") should return true', () => {
+    expect(stringEndWith("abAb", "Ab")).toBe(true);
   });
 });

@@ -14,3 +14,10 @@ solution('abc', 'd') // returns false
 - ✅ DONE
 
 ## Plans
+
+- ⚠ '("abAb", "Ab") should return true'
+- ⚠ '("ababac", "ab")' should return false
+- ⚠ '("ababab", "ab")' should return true
+- ⚠ '("naNa", "ababac")' should return false
+- ⚠ '("", "")' should return true
+- ⚠ '("naNa", "")' should return false

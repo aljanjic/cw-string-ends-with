@@ -1,5 +1,5 @@
 function stringEndWith() {
-  return 'hello';
+  return true;
 }
 
 module.exports = stringEndWith;
