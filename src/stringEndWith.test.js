@@ -9,7 +9,12 @@ describe('stringEndWith', () => {
     expect(stringEndWith("ababac", "ab")).toBe(false);
   });
 
-  it('("ababab", "ab") should return false', () => {
+  it('("ababab", "ab") should return true', () => {
     expect(stringEndWith("ababab", "ab")).toBe(true);
   });
+
+  it('("naNa", "ababac") should return false', () => {
+    expect(stringEndWith("naNa", "ababac")).toBe(false);
+  });
+
 });
